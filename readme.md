@@ -58,3 +58,7 @@ If you have a prompt that needs to update every time it gets loaded, setting PS1
 ```sh
 PROMPT_COMMAND="ps1derful_set_bash_prompt; $PROMPT_COMMAND"
 ```
+
+### Default Theme
+Here's a sample of the default theme:
+![default theme sample](https://raw.github.com/tncbbthositg/ps1derful/master/samples/default.png)
