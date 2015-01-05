@@ -9,10 +9,8 @@ ps1derful_set_bash_prompt(){
     local b="$light_gray"
     local path=`__ps1derful_get_short_path`
 
-    local user_name=$GIT_AUTHOR_NAME
-  	if [ -z $user_name ]; then
-        local user_name="${user_name:-`git config user.name`}"
-    fi
+    local user_name="$GIT_AUTHOR_NAME"
+    user_name="${user_name:-`git config user.name`}"
 
     local last_commit_time=`ps1derful_get_git_last_commit "$user_name"`
     local changed_file_count=`ps1derful_get_git_change_count`
