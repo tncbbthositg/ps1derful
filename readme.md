@@ -16,10 +16,10 @@ PS1derful should work with a few minor changes to your .bash_profile.
 
 ### __git_ps1
 
-PS1derful uses __git_ps1 from [.git-prompt.sh](https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh).  You can curl it:
+PS1derful uses __git_ps1 from [.git-prompt.sh](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh).  You can curl it:
 
 ```sh
-curl -o ~/.git-prompt.sh https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
+curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 ```
 
 Here's how I like to configure the __git_ps1 options:
